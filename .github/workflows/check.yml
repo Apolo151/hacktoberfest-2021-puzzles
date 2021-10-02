@@ -4,6 +4,8 @@ on:
   pull_request:
     paths-ignore:
       - "README.md"
+  pull_request_target:
+    types: [opened, reopened]
 
 jobs:
   check_answer:
