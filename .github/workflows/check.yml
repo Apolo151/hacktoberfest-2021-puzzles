@@ -24,6 +24,6 @@ jobs:
         uses: upinetree/labeler@fix-pull-request-param
         with:
           add-labels: "hacktoberfest-accepted"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.PUSH_TOKEN }}
           ignore-if-assigned: false
           ignore-if-labeled: true
